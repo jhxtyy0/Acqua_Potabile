@@ -1,0 +1,274 @@
+body{
+    background-color: rgb(17, 58, 90);
+    overflow-x: hidden;
+    align-items: center;
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+    transition: all 0.4s ease;
+}
+
+::selection   {
+    background: rgb(23, 80, 123);
+    color: rgb(151, 214, 206);
+}
+
+::-webkit-scrollbar {
+    width: 9px;
+    background-color: rgb(23, 80, 123);
+    height: 1px;
+    border-radius: 12px;
+}
+  
+::-webkit-scrollbar-thumb {
+    background: rgb(38, 96, 151);
+    border-radius: 15px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(38, 96, 151);
+    border-radius: 15px;
+}
+
+mark{
+    color: rgb(141, 179, 230);
+    background-color: transparent;
+}
+
+mark1 {
+    color: rgb(194, 211, 233);
+    background-color: transparent;
+}
+
+h2 {
+    font-size: 50px;
+    color: azure;
+    animation: txt1 0.6s;
+    opacity: 0.9;
+    margin-top: 60px;
+    font-weight: 900;
+}
+
+.imgcon{
+    height: 725px;
+    width: 500px;
+    background-color: rgb(27, 89, 136);
+    overflow: hidden;
+    border-radius: 30px;
+    animation: img1 0.9s;
+    position: absolute;
+    margin-left: 50px;
+    transition: all 0.4s ease;
+}
+
+img{
+    border-radius: 20px;
+    margin-top: 25px;
+    transition: all 0.4s ease;
+    opacity: 0.7;
+}
+
+.imgcon:hover img{
+    transform: scale(1.2);
+    opacity: 0.3;
+}
+
+.imgcon a{
+    text-decoration: none;
+}
+
+.imgcon a h4{
+    opacity: 0;
+    transition: all 0.5s ease;
+    margin-top: 100px;
+    font-size: 30px;
+    color: azure;
+}
+
+.imgcon:hover a h4{
+    opacity: 0.9;
+    transform: translateY(-480px);
+}
+
+.imgcon a h4:hover{
+    color: rgb(154, 202, 238);
+}
+
+.imgcon a h4 h3{
+    font-size: 20px;
+    opacity: 0;
+    transform: all 0.3s ease;
+    margin-top: -1000px;
+    color: black;
+}
+
+.imgcon a h4:hover h3{
+    opacity: 1;
+}
+
+.container{
+    height: 300px;
+    width: 1250px;
+    background-color: rgb(27, 89, 136);
+    border-radius: 50px;
+    position: absolute;
+    margin-left: 600px;
+    animation: img2 1s;
+    margin-top: 180px;
+    overflow: hidden;
+}
+
+.container p{
+    margin-top: -220px;
+    width: 95%;
+    text-align: center;
+    margin-left: 30px;
+    font-size: 25px;
+    color: azure;
+    font-weight: 250;
+}
+
+.container .bb{
+    height: 275px;
+    width: 1225px;
+    background-color: transparent;
+    border: 3px solid rgb(18, 58, 87);
+    border-radius: 50px;
+    margin-top: 9px;
+    margin-left: 10px;
+}
+
+.container .oc1{
+    height: 800px;
+    width: 1450px;
+    background-color: rgb(94, 208, 221);
+    transform: rotate(10deg);
+    margin-top: -100px;
+    margin-left: -120px;
+    position: static;
+    animation: oscillate1 4.5s infinite alternate;
+    opacity: 0.05;
+}
+
+.footer{
+    margin-top: 1000px;
+}
+@keyframes op1 {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes op2 {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes op3 {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes oscillate1 {
+    from {
+        transform: translateY(0) rotate(5deg);
+    }
+    to {
+        transform: translateY(10px) rotate(-5deg);
+    }
+}
+
+@keyframes oscillate2 {
+    from {
+        transform: translateY(0) rotate(-10deg);
+    }
+    to {
+        transform: translateY(30px) rotate(9deg);
+    }
+}
+
+@keyframes oscillate3 {
+    from {
+        transform: translateY(0) rotate(11deg);
+    }
+    to {
+        transform: translateY(20px) rotate(-12deg);
+    }
+}
+
+@keyframes txt1 {
+    from {
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0px);
+        opacity: 0.9;
+    }
+}
+
+@keyframes txt2 {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes bba {
+    0% {
+        border: 2px solid rgb(222, 134, 240);
+    }
+    50% {
+        border: 2px solid rgb(85, 169, 221);
+    }
+    100% {
+        border: 2px solid rgb(70, 144, 115);
+    }
+}
+
+@keyframes bba2 {
+    0% {
+        border: 2px solid rgb(222, 134, 240);
+        opacity: 0.5;
+    }
+    50% {
+        border: 2px solid rgb(85, 169, 221);
+        opacity: 0.5;
+    }
+    100% {
+        border: 2px solid rgb(70, 144, 115);
+        opacity: 0.5;
+    }
+}
+
+
+@keyframes img1{
+    from{
+        transform: translateX(-600px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+}
+
+
+@keyframes img2{
+    from{
+        transform: translateX(1600px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+}

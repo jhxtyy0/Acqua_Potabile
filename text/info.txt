@@ -1,0 +1,3 @@
+- Tasto 'h' per andare all'indice;
+- Tasto '→' per andare avanti fra le slide;
+- Tasto '←' per tornare indietro nelle slide;

@@ -1,0 +1,214 @@
+body{
+    background-color: rgb(17, 58, 90);
+    overflow-x: hidden;
+    align-items: center;
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+    transition: all 0.4s ease;
+}
+
+::selection   {
+    background: rgb(23, 80, 123);
+    color: rgb(151, 214, 206);
+}
+
+::-webkit-scrollbar {
+    width: 9px;
+    background-color: rgb(23, 80, 123);
+    height: 1px;
+    border-radius: 12px;
+}
+  
+::-webkit-scrollbar-thumb {
+    background: rgb(38, 96, 151);
+    border-radius: 15px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(38, 96, 151);
+    border-radius: 15px;
+}
+
+mark{
+    color: rgb(141, 179, 230);
+    background-color: transparent;
+}
+
+h1{
+    font-size: 50px;
+    color: azure;
+    animation: txt1 0.6s;
+    opacity: 0.9;
+    margin-top: 40px;
+    font-weight: 900;
+}
+
+.c {
+    height: 600px;
+    width: 420px;
+    background-color: rgb(27, 89, 136);
+    border-radius: 75px;
+    margin-left: 740px;
+    margin-top: 100px;
+    animation: op2 1s;
+    overflow: hidden;
+}
+
+.c .oci{
+    height: 800px;
+    width: 650px;
+    background-color: rgb(94, 208, 221);
+    transform: rotate(10deg);
+    margin-top: -250px;
+    margin-left: -120px;
+    position: static;
+    animation: oscillate1 4.5s infinite alternate;
+    opacity: 0.05;
+}
+
+.c .b{
+    height: 575px;
+    width: 395px;
+    background-color: transparent;
+    border: solid rgb(18, 58, 87) 3px;
+    border-radius: 75px;
+    margin-top: -470px;
+    margin-left: 10px;
+}
+
+.c h2{
+    font-size: 30px;
+    color: azure;
+    opacity: 0.9;
+    font-weight: 800;
+    position: relative; /* Aggiunto */
+    top: 50px; /* Modificato - Sposta l'elemento verso l'alto di 50px */
+}
+
+
+.c li{
+    list-style: none;
+    margin-left: -40px;
+    font-size: 20px;
+    margin-top: 80px;
+    font-weight: 500;
+    color: rgb(190, 227, 251);
+    position: relative; /* Aggiunto */
+    top: 65px; /* Modificato - Sposta l'elemento verso l'alto di 50px */
+}
+
+.c li ul{
+    margin: 30px;
+}
+
+.c hr{
+    border: 2px solid rgb(18, 58, 87);
+    position: absolute;
+    width: 350px;
+    border-radius: 100px;
+    margin-top: -335px;
+    margin-left: 30px;
+}
+@keyframes op1 {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes op2 {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes op3 {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes oscillate1 {
+    from {
+        transform: translateY(0) rotate(8deg);
+    }
+    to {
+        transform: translateY(10px) rotate(-13deg);
+    }
+}
+
+@keyframes oscillate2 {
+    from {
+        transform: translateY(0) rotate(-10deg);
+    }
+    to {
+        transform: translateY(30px) rotate(9deg);
+    }
+}
+
+@keyframes oscillate3 {
+    from {
+        transform: translateY(0) rotate(11deg);
+    }
+    to {
+        transform: translateY(20px) rotate(-12deg);
+    }
+}
+
+@keyframes txt1 {
+    from {
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0px);
+        opacity: 0.9;
+    }
+}
+
+@keyframes txt2 {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes bba {
+    0% {
+        color: rgb(233, 157, 248);
+        background-color: transparent;
+    }
+    50% {
+        color: rgb(95, 187, 244);
+        background-color: transparent;
+    }
+    100% {
+        color: rgb(96, 193, 155);
+        background-color: transparent;
+    }
+}
+
+@keyframes bba2 {
+    0% {
+        border: 2px solid rgb(222, 134, 240);
+        opacity: 0.5;
+    }
+    50% {
+        border: 2px solid rgb(85, 169, 221);
+        opacity: 0.5;
+    }
+    100% {
+        border: 2px solid rgb(70, 144, 115);
+        opacity: 0.5;
+    }
+}

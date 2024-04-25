@@ -1,0 +1,765 @@
+body{
+    background-color: rgb(17, 58, 90);
+    overflow-x: hidden;
+    align-items: center;
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+    transition: all 0.4s ease;
+}
+
+::selection   {
+    background: rgb(23, 80, 123);
+    color: rgb(151, 214, 206);
+}
+
+::-webkit-scrollbar {
+    width: 9px;
+    background-color: rgb(23, 80, 123);
+    height: 1px;
+    border-radius: 12px;
+}
+  
+::-webkit-scrollbar-thumb {
+    background: rgb(38, 96, 151);
+    border-radius: 15px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(38, 96, 151);
+    border-radius: 15px;
+}
+
+mark{
+    color: rgb(141, 179, 230);
+    background-color: transparent;
+}
+
+mark1 {
+    color: rgb(194, 211, 233);
+    background-color: transparent;
+}
+
+h1 {
+    font-size: 50px;
+    color: azure;
+    animation: txt1 0.6s;
+    opacity: 0.9;
+    margin-top: 40px;
+    font-weight: 900;
+}
+
+h4 {
+    font-size: 15px;
+    color: azure;
+    font-weight: 500;
+    margin-top: -10px;
+    animation: txt2 0.7s;
+}
+
+a{
+    text-decoration: none;
+}
+
+a h4{
+    font-size: 20px;
+    position: absolute;
+    animation: txt2 1s;
+    text-align: center;
+    margin-top: 1850px;
+    margin-left: 875px;
+    font-weight: 900;
+    color: rgb(141, 179, 230);
+}
+
+a h4:hover{
+    color: rgb(161, 192, 232);
+}
+
+.containerintro {
+    font-size: 25px;
+    color: rgb(191, 222, 249);
+    background-color: rgb(27, 89, 136);
+    height: 700px;
+    width: 475px;
+    border-radius: 60px;
+    margin-left: 170px;
+    margin-top: 150px;
+    overflow: hidden;
+    animation: op1 1s;
+    font-weight: 300;
+    transition: all 0.4s ease;
+}
+
+.containerintro:hover{
+    transform: scale(1.05);
+}
+
+.containerintro h2{
+    font-weight: 900;
+}
+
+.containerintro p{
+    color: aliceblue;
+    font-size: 20px;
+    margin-top: 540px;
+}
+
+.containerintro .oci{
+    height: 500px;
+    width: 650px;
+    background-color: rgb(94, 208, 221);
+    transform: rotate(10deg);
+    margin-top: -210px;
+    margin-left: -120px;
+    position: static;
+    animation: oscillate1 4.5s infinite alternate;
+    opacity: 0.1;
+}
+
+.containerintro .ri{
+    height: 675px;
+    width: 450px;
+    background-color: transparent;
+    border: 3px solid rgb(17, 58, 90);
+    margin-top: -947px;
+    border-radius: 50px;
+    margin-left: 10px;
+    transition: all 0.5s ease;
+    pointer-events: none;
+}
+
+.containerintro button{
+    height: 210px;
+    width: 360px;
+    background-color: rgb(22, 72, 110);
+    border-radius: 70px;
+    margin-top: 80px;
+    margin-left: -180px;
+    opacity: 1;
+    position: absolute;
+    border: none;
+    transition: all 0.6s ease;
+    overflow: hidden;
+}
+
+.containerintro button h3{
+    transition: all 0.4s ease;
+    font-size: 60px;
+    color: rgb(191, 222, 249);
+    margin-top: 65px;
+}
+
+.containerintro button img{
+    filter: drop-shadow(0px 0px 4px rgb(19, 44, 63));
+    margin-top: 40px;
+    transition: all 0.5s ease;
+}
+
+.containerintro button:hover{
+    transform: scale(1.05);
+}
+
+.containerintro button:hover img{
+    transform: translateY(-200px);
+}
+
+.containerintro button:hover h3{
+    transform: translateY(-140px);
+}
+
+.containerintro button:active{
+    transform: scale(0.95);
+    background-color: rgb(14, 45, 68);
+}
+
+.containerpot {
+    font-size: 25px;
+    color: rgb(191, 222, 249);
+    background-color: rgb(27, 89, 136);
+    height: 700px;
+    width: 475px;
+    border-radius: 60px;
+    margin-left: 710px;
+    margin-top: -700px;
+    overflow: hidden;
+    animation: op1 1s;
+    font-weight: 300;
+    transition: all 0.4s ease;
+    position: absolute;
+}
+
+.containerpot:hover{
+    transform: scale(1.05);
+}
+
+.containerpot h2{
+    font-weight: 900;
+}
+
+.containerpot p{
+    color: aliceblue;
+    font-size: 20px;
+    margin-top: 540px;
+}
+
+.containerpot .oci{
+    height: 500px;
+    width: 650px;
+    background-color: rgb(94, 208, 221);
+    transform: rotate(10deg);
+    margin-top: -210px;
+    margin-left: -120px;
+    position: static;
+    animation: oscillate2 4.5s infinite alternate;
+    opacity: 0.1;
+}
+
+.containerpot .ri{
+    height: 675px;
+    width: 450px;
+    background-color: transparent;
+    border: 3px solid rgb(17, 58, 90);
+    margin-top: -947px;
+    border-radius: 50px;
+    margin-left: 10px;
+    transition: all 0.5s ease;
+    pointer-events: none;
+}
+
+.containerpot button{
+    height: 210px;
+    width: 360px;
+    background-color: rgb(22, 72, 110);
+    border-radius: 70px;
+    margin-top: 80px;
+    margin-left: -180px;
+    opacity: 1;
+    position: absolute;
+    border: none;
+    transition: all 0.6s ease;
+    overflow: hidden;
+}
+
+.containerpot button h3{
+    transition: all 0.4s ease;
+    font-size: 60px;
+    color: rgb(191, 222, 249);
+    margin-top: 65px;
+}
+
+.containerpot button img{
+    filter: drop-shadow(0px 0px 4px rgb(19, 44, 63));
+    margin-top: 40px;
+    transition: all 0.5s ease;
+}
+
+.containerpot button:hover{
+    transform: scale(1.05);
+}
+
+.containerpot button:hover img{
+    transform: translateY(-200px);
+}
+
+.containerpot button:hover h3{
+    transform: translateY(-140px);
+}
+
+.containerpot button:active{
+    transform: scale(0.95);
+    background-color: rgb(14, 45, 68);
+}
+
+.containercon {
+    font-size: 24px;
+    color: rgb(191, 222, 249);
+    background-color: rgb(27, 89, 136);
+    height: 700px;
+    width: 475px;
+    border-radius: 60px;
+    margin-left: 1250px;
+    margin-top: -700px;
+    overflow: hidden;
+    animation: op1 1s;
+    font-weight: 300;
+    transition: all 0.4s ease;
+}
+
+.containercon:hover{
+    transform: scale(1.05);
+}
+
+.containercon h2{
+    font-weight: 900;
+}
+
+.containercon p{
+    color: aliceblue;
+    font-size: 20px;
+    margin-top: 540px;
+}
+
+.containercon .oci{
+    height: 500px;
+    width: 950px;
+    background-color: rgb(94, 208, 221);
+    transform: rotate(10deg);
+    margin-top: -205px;
+    margin-left: -120px;
+    position: static;
+    animation: oscillate1 4.5s infinite alternate;
+    opacity: 0.1;
+}
+
+.containercon .ri{
+    height: 675px;
+    width: 450px;
+    background-color: transparent;
+    border: 3px solid rgb(17, 58, 90);
+    margin-top: -949px;
+    border-radius: 50px;
+    margin-left: 10px;
+    transition: all 0.5s ease;
+    pointer-events: none;
+}
+
+.containercon button{
+    height: 210px;
+    width: 360px;
+    background-color: rgb(22, 72, 110);
+    border-radius: 70px;
+    margin-top: 80px;
+    margin-left: -180px;
+    opacity: 1;
+    position: absolute;
+    border: none;
+    transition: all 0.6s ease;
+    overflow: hidden;
+}
+
+.containercon button h3{
+    transition: all 0.4s ease;
+    font-size: 60px;
+    color: rgb(191, 222, 249);
+    margin-top: 65px;
+}
+
+.containercon button img{
+    filter: drop-shadow(0px 0px 4px rgb(19, 44, 63));
+    margin-top: 40px;
+    transition: all 0.5s ease;
+}
+
+.containercon button:hover{
+    transform: scale(1.05);
+}
+
+.containercon button:hover img{
+    transform: translateY(-200px);
+}
+
+.containercon button:hover h3{
+    transform: translateY(-140px);
+}
+
+.containercon button:active{
+    transform: scale(0.95);
+    background-color: rgb(14, 45, 68);
+}
+
+.containercri {
+    font-size: 25px;
+    color: rgb(191, 222, 249);
+    background-color: rgb(27, 89, 136);
+    height: 700px;
+    width: 475px;
+    border-radius: 60px;
+    margin-left: 170px;
+    margin-top: 150px;
+    overflow: hidden;
+    animation: op1 1s;
+    font-weight: 300;
+    transition: all 0.4s ease;
+}
+
+.containercri:hover{
+    transform: scale(1.05);
+}
+
+.containercri h2{
+    font-weight: 900;
+}
+
+.containercri p{
+    color: aliceblue;
+    font-size: 20px;
+    margin-top: 540px;
+}
+
+.containercri .oci{
+    height: 500px;
+    width: 650px;
+    background-color: rgb(94, 208, 221);
+    transform: rotate(10deg);
+    margin-top: -210px;
+    margin-left: -120px;
+    position: static;
+    animation: oscillate2 4.5s infinite alternate;
+    opacity: 0.1;
+}
+
+.containercri .ri{
+    height: 675px;
+    width: 450px;
+    background-color: transparent;
+    border: 3px solid rgb(17, 58, 90);
+    margin-top: -945px;
+    border-radius: 50px;
+    margin-left: 10px;
+    transition: all 0.5s ease;
+    pointer-events: none;
+}
+
+.containercri button{
+    height: 210px;
+    width: 360px;
+    background-color: rgb(22, 72, 110);
+    border-radius: 70px;
+    margin-top: 80px;
+    margin-left: -180px;
+    opacity: 1;
+    position: absolute;
+    border: none;
+    transition: all 0.6s ease;
+    overflow: hidden;
+}
+
+.containercri button h3{
+    transition: all 0.4s ease;
+    font-size: 60px;
+    color: rgb(191, 222, 249);
+    margin-top: 65px;
+}
+
+.containercri button img{
+    filter: drop-shadow(0px 0px 4px rgb(19, 44, 63));
+    margin-top: 40px;
+    transition: all 0.5s ease;
+}
+
+.containercri button:hover{
+    transform: scale(1.05);
+}
+
+.containercri button:hover img{
+    transform: translateY(-200px);
+}
+
+.containercri button:hover h3{
+    transform: translateY(-140px);
+}
+
+.containercri button:active{
+    transform: scale(0.95);
+    background-color: rgb(14, 45, 68);
+}
+
+.containerinq {
+    font-size: 20px;
+    color: rgb(191, 222, 249);
+    background-color: rgb(27, 89, 136);
+    height: 700px;
+    width: 475px;
+    border-radius: 60px;
+    margin-left: 710px;
+    margin-top: -700px;
+    overflow: hidden;
+    animation: op1 1s;
+    font-weight: 300;
+    transition: all 0.4s ease;
+}
+
+.containerinq:hover{
+    transform: scale(1.05);
+}
+
+.containerinq h2{
+    font-weight: 900;
+    margin-top: 30px;
+}
+
+.containerinq p{
+    color: aliceblue;
+    font-size: 20px;
+    margin-top: 540px;
+}
+
+.containerinq .oci{
+    height: 500px;
+    width: 650px;
+    background-color: rgb(94, 208, 221);
+    transform: rotate(10deg);
+    margin-top: -210px;
+    margin-left: -120px;
+    position: static;
+    animation: oscillate1 4.5s infinite alternate;
+    opacity: 0.1;
+}
+
+.containerinq .ri{
+    height: 675px;
+    width: 450px;
+    background-color: transparent;
+    border: 3px solid rgb(17, 58, 90);
+    margin-top: -934px;
+    border-radius: 50px;
+    margin-left: 10px;
+    transition: all 0.5s ease;
+    pointer-events: none;
+}
+
+.containerinq button{
+    height: 210px;
+    width: 360px;
+    background-color: rgb(22, 72, 110);
+    border-radius: 70px;
+    margin-top: 100px;
+    margin-left: -180px;
+    opacity: 1;
+    position: absolute;
+    border: none;
+    transition: all 0.6s ease;
+    overflow: hidden;
+}
+
+.containerinq button h3{
+    transition: all 0.4s ease;
+    font-size: 60px;
+    color: rgb(191, 222, 249);
+    margin-top: 65px;
+}
+
+.containerinq button img{
+    filter: drop-shadow(0px 0px 4px rgb(19, 44, 63));
+    margin-top: 40px;
+    transition: all 0.5s ease;
+}
+
+.containerinq button:hover{
+    transform: scale(1.05);
+}
+
+.containerinq button:hover img{
+    transform: translateY(-200px);
+}
+
+.containerinq button:hover h3{
+    transform: translateY(-140px);
+}
+
+.containerinq button:active{
+    transform: scale(0.95);
+    background-color: rgb(14, 45, 68);
+}
+
+.containeredu {
+    font-size: 25px;
+    color: rgb(191, 222, 249);
+    background-color: rgb(27, 89, 136);
+    height: 700px;
+    width: 475px;
+    border-radius: 60px;
+    margin-left: 1250px;
+    margin-top: -700px;
+    overflow: hidden;
+    animation: op1 1s;
+    font-weight: 300;
+    transition: all 0.4s ease;
+}
+
+.containeredu:hover{
+    transform: scale(1.05);
+}
+
+.containeredu h2{
+    font-weight: 900;
+}
+
+.containeredu p{
+    color: aliceblue;
+    font-size: 20px;
+    margin-top: 540px;
+}
+
+.containeredu .oci{
+    height: 500px;
+    width: 650px;
+    background-color: rgb(94, 208, 221);
+    transform: rotate(10deg);
+    margin-top: -210px;
+    margin-left: -120px;
+    position: static;
+    animation: oscillate2 4.5s infinite alternate;
+    opacity: 0.1;
+}
+
+.containeredu .ri{
+    height: 675px;
+    width: 450px;
+    background-color: transparent;
+    border: 3px solid rgb(17, 58, 90);
+    margin-top: -945px;
+    border-radius: 50px;
+    margin-left: 10px;
+    transition: all 0.5s ease;
+    pointer-events: none;
+}
+
+.containeredu button{
+    height: 210px;
+    width: 360px;
+    background-color: rgb(22, 72, 110);
+    border-radius: 70px;
+    margin-top: 80px;
+    margin-left: -180px;
+    opacity: 1;
+    position: absolute;
+    border: none;
+    transition: all 0.6s ease;
+    overflow: hidden;
+}
+
+.containeredu button h3{
+    transition: all 0.4s ease;
+    font-size: 60px;
+    color: rgb(191, 222, 249);
+    margin-top: 65px;
+}
+
+.containeredu button img{
+    filter: drop-shadow(0px 0px 4px rgb(19, 44, 63));
+    margin-top: 40px;
+    transition: all 0.5s ease;
+}
+
+.containeredu button:hover{
+    transform: scale(1.05);
+}
+
+.containeredu button:hover img{
+    transform: translateY(-200px);
+}
+
+.containeredu button:hover h3{
+    transform: translateY(-140px);
+}
+
+.containeredu button:active{
+    transform: scale(0.95);
+    background-color: rgb(14, 45, 68);
+}
+
+.footer{
+    margin-top: 200px;
+}
+
+@keyframes op1 {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes op2 {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes op3 {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes oscillate1 {
+    from {
+        transform: translateY(0) rotate(8deg);
+    }
+    to {
+        transform: translateY(30px) rotate(-10deg);
+    }
+}
+
+@keyframes oscillate2 {
+    from {
+        transform: translateY(0) rotate(-10deg);
+    }
+    to {
+        transform: translateY(30px) rotate(9deg);
+    }
+}
+
+@keyframes oscillate3 {
+    from {
+        transform: translateY(0) rotate(11deg);
+    }
+    to {
+        transform: translateY(20px) rotate(-12deg);
+    }
+}
+
+@keyframes txt1 {
+    from {
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0px);
+        opacity: 0.9;
+    }
+}
+
+@keyframes txt2 {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes bba {
+    0% {
+        border: 2px solid rgb(222, 134, 240);
+    }
+    50% {
+        border: 2px solid rgb(85, 169, 221);
+    }
+    100% {
+        border: 2px solid rgb(70, 144, 115);
+    }
+}
+
+@keyframes bba2 {
+    0% {
+        border: 2px solid rgb(222, 134, 240);
+        opacity: 0.5;
+    }
+    50% {
+        border: 2px solid rgb(85, 169, 221);
+        opacity: 0.5;
+    }
+    100% {
+        border: 2px solid rgb(70, 144, 115);
+        opacity: 0.5;
+    }
+}
